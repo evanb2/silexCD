@@ -2,7 +2,7 @@
     require_once __DIR__."/../vendor/autoload.php";
     require_once __DIR__."/../src/Cd.php";
 
-    $app = new Silex/Application();
+    $app = new Silex\Application();
 
     $app->get("/", function() {
         $first_cd = new CD("Master of Reality", "Black Sabbath", "images/reality.jpg", 10.99);
